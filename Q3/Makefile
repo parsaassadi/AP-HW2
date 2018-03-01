@@ -9,7 +9,7 @@ $(TARGET): $(OBJECTS)
 	$(CXX) $(LXXFLAGS) $(OBJECTS) -o $(TARGET)
 Qmain.o: Qmain.cpp Queue.h
 	$(CXX) $(CXXFLAGS) Qmain.cpp
-Queue.o: queue.cpp
+Queue.o: Queue.cpp
 	$(CXX) $(CXXFLAGS) Queue.cpp
 clean:
 	rm -f $(TARGET) $(OBJECTS)
