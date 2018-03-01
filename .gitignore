@@ -1,8 +1,8 @@
-# Ignore everything
-*
-
-# But not these files...
-!*.gitignore
-!*.cpp
-!*.h
-!*Makefile
+*.o
+# OS X Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.lnk
+*~
